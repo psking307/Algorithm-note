@@ -6,12 +6,12 @@ int school[maxn] = {0};
 
 int main (){
 	int n;
-	cout << "ÇëÊäÈë²ÎÈüÈËÊý£º" << endl;
+	cout << "è¯·è¾“å…¥å‚èµ›äººæ•°ï¼š" << endl;
 	cin >> n;
 	int schID = 0;
 	int score = 0;
 	for(int i=0 ; i<n ; i++){
-		cout << "ÇëÊäÈëµÚ " << i+1 << " Î»²ÎÈüÕßµÄÑ§Ð£±àºÅ¼°±ÈÈü³É¼¨" << endl;
+		cout << "è¯·è¾“å…¥ç¬¬ " << i+1 << " ä½å‚èµ›è€…çš„å­¦æ ¡ç¼–å·åŠæ¯”èµ›æˆç»©" << endl;
 		cin >> schID >> score;
 		school[schID] += score;
 	}
@@ -23,7 +23,7 @@ int main (){
 			k = i ;
 			}
 	}
-	cout << "×Ü·Ö×î¸ßµÄÑ§Ð£±àºÅÎª£º" << k << endl;
-	cout << "×Ü·ÖÎª£º" << Max << endl; 
+	cout << "æ€»åˆ†æœ€é«˜çš„å­¦æ ¡ç¼–å·ä¸ºï¼š" << k << endl;
+	cout << "æ€»åˆ†ä¸ºï¼š" << Max << endl; 
 	return 0;
 }
