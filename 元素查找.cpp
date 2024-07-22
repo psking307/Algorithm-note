@@ -6,13 +6,13 @@ int arr[maxn] ;
 
 int main(){
 	int n; 
-	cout << "ÇëÊäÈëÊıµÄ¸öÊı£º" << endl;
+	cout << "è¯·è¾“å…¥æ•°çš„ä¸ªæ•°ï¼š" << endl;
 	cin >> n;
-	cout << "ÇëÊäÈëÕâĞ©Êı:" << endl; 
+	cout << "è¯·è¾“å…¥è¿™äº›æ•°:" << endl; 
 	for(int i = 0 ; i < n ; i++){
 		cin >> arr[i] ;
 	}
-	cout << "ÇëÊäÈëÒª²éÕÒµÄÊı£º" << endl;
+	cout << "è¯·è¾“å…¥è¦æŸ¥æ‰¾çš„æ•°ï¼š" << endl;
 	int a;
 	cin >> a; 
 	int b = 0;
