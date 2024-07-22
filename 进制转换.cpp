@@ -2,13 +2,13 @@
 using namespace std;
 
 int main(){
-	cout << "ÇëÊäÈëÈı¸öÊıA¡¢B¡¢D£º" << endl;
+	cout << "è¯·è¾“å…¥ä¸‰ä¸ªæ•°Aã€Bã€Dï¼š" << endl;
 	int A, B, D;
 	cin >> A >> B >> D;
 	int C = A + B;
 	int z[40], num = 0;
 	
-	// ³ı»ùÈ¡Óà
+	// é™¤åŸºå–ä½™
 	do{
 		z[num++] = C % D;
 		C /= D;
