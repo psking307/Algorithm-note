@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-// PAT B1001  (3n+1)²ÂÏë
+// PAT B1001  (3n+1)çŒœæƒ³
 int main(){
-	cout << "ÇëÊäÈëÒ»¸ö²»³¬¹ı1000µÄÕıÕûÊı£º" << endl;
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªä¸è¶…è¿‡1000çš„æ­£æ•´æ•°ï¼š" << endl;
 	int n;
 	int step = 0;
 	cin >> n ;
@@ -16,6 +16,6 @@ int main(){
 			step ++;
 		}
 	}
-	cout << "´Ón¼ÆËãµ½1ĞèÒª " << step << " ²½" << endl;
+	cout << "ä»nè®¡ç®—åˆ°1éœ€è¦ " << step << " æ­¥" << endl;
 	return 0; 
 } 
